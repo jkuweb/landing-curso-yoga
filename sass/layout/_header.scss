@@ -62,3 +62,25 @@
 		}
 	}
 }
+
+@include respond(s-phone) {
+	.header {
+		&__text-top {
+			text-align: center;
+			font-size: .8rem;
+		}
+		&__text {
+			width: 100%;
+			line-height: 1.7;
+		}
+		&__heading {
+			font-size: 2rem;
+		}
+		&__registered-sign {
+			font-size: 20px;
+		}
+		&__text {
+			font-size: .9rem;
+		}
+	}
+}
