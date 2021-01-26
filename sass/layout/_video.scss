@@ -13,7 +13,7 @@
 		line-height: 1.6em;
 		font-size: clamp(1em, 3vw, 1.2em);
 		align-self: center;
-		:first-child {
+		p:first-child {
 			margin-bottom: 1rem;
 			&:first-letter {
 				color: #00543d;
