@@ -583,7 +583,7 @@ new Glider(document.querySelector('.glider'), {
 				duration: 0.25
 			}
 		},{
-			breakpoint: 700,
+			breakpoint: 600,
 			settings: {
 				slidesToShow: 2,
 				slidesToScroll: 'auto',

@@ -14,7 +14,6 @@
 	}
 	&__text-top {
 		display: block;
-		text-align: left;
 		color: $color-secondary-dark;
 		font-family: $text-font-family; 
 		font-size: clamp(1rem, 3vw, 1.6rem);
@@ -43,10 +42,16 @@
 }
 
 @include respond(tab-port) {
-}
+	.header {
+		width: 100%;
+	}
+}	
 @include respond(phone) {
 	.header {
 		width: 100%;	
+		&__text-top {
+			text-align: left;
+		}
 		&__text-box {
 			max-width: 100%;
 		}
