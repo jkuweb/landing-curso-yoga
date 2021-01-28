@@ -47,6 +47,25 @@
 	right: -4rem;
 }
 
+@include respond(tab-port) {
+	.testimonials {
+		&__item {
+			&:not(:last-child) {
+				margin-right: 5rem;
+			}
+		}
+	}		
+	.glider-prev {
+		left: 1rem;
+		top: 0;
+	}
+
+	.glider-next {
+		right: 0;
+		top: 0;
+	}
+
+}
 @include respond(phone) {
 	.testimonials {
 		&__item {

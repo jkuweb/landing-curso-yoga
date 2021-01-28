@@ -26,9 +26,6 @@
 		padding-left: 4em;
 
 	}
-	&--one {
-
-	}
 }
 
 @include respond(phone) {
@@ -38,5 +35,13 @@
 	}
 	.question {
 		grid-template-rows: minmax(5rem,40%);
+		&__img {
+			margin-left: .51rem;
+		}
+		&__text {
+			padding-left: 1em;
+			padding-right: 1em;
+			hyphens: auto;
+		}
 	}
 }

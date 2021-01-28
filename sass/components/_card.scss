@@ -69,11 +69,11 @@
 		height: 54rem;
 		position: relative;
 		top: -2rem;
+		z-index: 1;
 	}
 	&--3 {
 		position: relative;
 		right: 3rem;
-		z-index: -1;
 		overflow: hidden;
 
 		h3 {
@@ -148,8 +148,9 @@
 		}
 		&--3 {
 			height: 57rem;
-
-			
+		}
+		&__price {
+			margin-top: 5rem;
 		}
 	}
 
